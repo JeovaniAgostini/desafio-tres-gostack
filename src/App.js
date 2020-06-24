@@ -34,7 +34,7 @@ function App() {
         <div>
         <ul data-testid="repository-list">
             {
-                repos.map(repo => 
+                repos.map(repo =>  
                     <li key={repo.id}>
                         {repo.title}
 
